@@ -10,7 +10,7 @@ body {
 footer{
     position: fixed;
     bottom: 0;
-    background-color: #D4D4D4;
+    background-color: #929292;
     font-size: 14px;
 }
 
@@ -40,3 +40,23 @@ footer li > a:hover {
     text-decoration: underline;
     color: #005CA0 !important;
 }
+
+.header-menu > ul {
+    display: flex;
+}
+
+.header-menu > ul > li {
+   list-style: none;
+}
+
+header {
+    background-color:#909090 ;
+}
+
+header .header-menu li a {
+    /* display: inline-block; */
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    /* height: 100%; */
+}    
