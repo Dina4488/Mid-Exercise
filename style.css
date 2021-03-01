@@ -1,0 +1,42 @@
+body {
+    direction: rtl;
+    font-family: 'Arial (Hebrew)', Arial;
+}
+.container {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto; 
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #D4D4D4;
+    font-size: 14px;
+}
+
+.container > div > ul > li {
+    list-style: none;
+    float: right;
+}
+
+.container > div > ul > li > a {
+    /* display: block; */
+    position: relative;
+    bottom: 2px;
+    width: 18px;
+    height: 18px;    
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+} 
+footer li.sep {
+    margin: 0 5px;
+    color: white;
+}
+
+footer li > a:hover {
+    text-decoration: underline;
+    color: #005CA0 !important;
+}
