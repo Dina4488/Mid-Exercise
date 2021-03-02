@@ -36,7 +36,7 @@ footer li.sep , .header-menu li.sep{
     color: white;
 }
 
-footer li > a:hover {
+footer li > a:hover , .header-drop-main > a:hover {
     text-decoration: underline;
     color: #005CA0 !important;
 }
@@ -129,9 +129,13 @@ header .header-menu li a {
 }
 
 .header-drop-main:hover  > .header-dropdown{
-    display: inline-block;
+    display: inline-block;  
 }
 
+
+.header-drop-main:hover  > .header-dropdown > a{
+color: ;
+}    
 .header-dropdown > ul > li {
     list-style: none;
 }
@@ -163,4 +167,103 @@ header .header-menu li a {
 
 .header-menu {
     margin-right: 134px;
+}
+
+.sideMenu {
+    float: right;
+    width: 122px;
+    margin-left: 22px;
+}
+
+.sideMenu ul li {
+    display: block;
+    width: 122px;
+    min-height: 36px;
+}
+
+.sideMenu ul li a {
+    display: block;
+    width: 110px;
+    height: 36px;
+    overflow: hidden;
+    padding-right: 12px;
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #5c5c5c;
+    line-height: 32px;
+    /* background: url(/web/20170614052512im_/http://www.paz.co.il/images/side_menu_sprite.png) no-repeat 0 0; */
+}
+
+.layout1 .content {
+    float: right;
+    margin-left: 24px;
+    color: #72716d;
+    font-size: 12px;
+    width: 440px;
+}
+
+.content > h1 {
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+}
+
+.contactForm h2 {
+    color: #005ca0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contactForm .caption {
+    display: block;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 5px 0;
+}
+.contactForm .instructions {
+    font-size: 12px;
+} 
+
+.line {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contactForm .fields label {
+    color: #6d6d6d;
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.contactForm {
+    border-style: solid solid none solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    width: 347px;
+    min-height: 332px;
+    padding: 12px 18px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f7f7f7), color-stop(51%,#f7f7f7), color-stop(100%,#ececec));
+}
+
+.contactForm .fields textarea {
+    float: right;
+    color: #6d6d6d;
+    width: 235px;
+    height: 100px;
+    padding: 3px;
+    border: 1px solid #808992;
+}
+
+.button{
+    font-size: 14px;
+    color: #fff;    
+    line-height: 21px;
+    padding: 0 4px;
+    background-color: #016099;
 }
