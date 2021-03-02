@@ -249,6 +249,8 @@ color: ;
     min-height: 332px;
     padding: 12px 18px;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f7f7f7), color-stop(51%,#f7f7f7), color-stop(100%,#ececec));
+    -webkit-border-top-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .contactForm .fields textarea {
@@ -266,4 +268,55 @@ color: ;
     line-height: 21px;
     padding: 0 4px;
     background-color: #016099;
+}
+
+.layout .content {
+    /* float: right; */
+    margin-left: 24px;
+    color: #72716d;
+    font-size: 12px;
+    /* width: 440px; */
+}
+
+
+.flex-container {
+    display: flex;
+}
+.content {
+    width: 65%;
+}
+.sideCube {
+    width: 35%;
+    display: flex; 
+    flex-direction: column;   
+}
+.cube {
+    width: 100%;
+}
+
+.cube h3.header-side {
+    font-size: 15px;
+    font-weight: bold;
+    color: #005ca0;
+    margin-bottom: 10px;
+}
+
+.cube  .data {
+    font-size: 13px;
+}
+
+.cube > .data > p {
+    margin: 0;
+    padding: 0;
+}
+
+.layout .sideCube .cubeseparator {
+    height: 20px;
+}   
+
+.cube {
+    width: 248px;
+    height: 142px;
+    padding: 18px 22px 15px;
+    background: url(../images/cube_bg.png) no-repeat 0 0;
 }
