@@ -121,11 +121,15 @@ header .header-menu li a {
 
 .header-dropdown {
     position: absolute;
-    display: inline-block;
+    display: none;
     top: 23px;
-    right: 0px;
+    right: -7px;
     background-color:#909090 ;
     z-index: 1;
+}
+
+.header-drop-main:hover  > .header-dropdown{
+    display: inline-block;
 }
 
 .header-dropdown > ul > li {
