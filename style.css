@@ -413,6 +413,7 @@ color: ;
 
 .imgF { 
     float: left;
+    margin-top: -5px;
 }
 
 .cube > .text {
