@@ -60,6 +60,27 @@ header .header-menu li a {
     font-weight: bold;
     /* height: 100%; */
 }
+.header-drop-main >.header-dropdown > ul > li.sep1 {
+    width: 100%;   
+    zoom: 1;
+    padding: 0;
+    margin: 0;
+    height: 1px;
+    background: url(images/menu_dropdown_sep.png) repeat-x 0 0;
+}
+header .header-menu li.sep {
+    width: 4px;
+    height: 21px;
+    background: url(images/menu_sep.png) no-repeat 0 0px;
+    margin: 0 16px;
+}
+
+.header-dropdown > ul > li >a {
+    white-space: nowrap;
+}
+
+
+
 
 .first, .second {
     display: flex;
@@ -81,7 +102,7 @@ header .header-menu li a {
     left: 26px;
     bottom: 20px;
     color: #fff;
-    background: url( images/hp_tab_text_bg.png) no-repeat 0 0;
+    background: url(images/hp_tab_text_bg.png) no-repeat 0 0;
 }
 .first .tab div.text p {
     font-size: 13px;
@@ -114,6 +135,23 @@ a.readMore.white {
 /* .cube {
     background: url(../images/small_cube_bg.png) no-repeat 0 0;
 } */
+a.readMore.yellow {
+    background: url(images/read_more_yellow.png)
+                no-repeat left center;
+}
+
+a.readMore {
+    text-decoration: underline;
+    color: #72716d;
+}
+
+a:hover {
+    color: #005CA0 !important;
+}
+a.readMore:hover {
+    background: url(images/read_more_blue.png) 
+                 no-repeat left center;
+}
 
 .second .cube h3 {
     position: relative;
