@@ -6,7 +6,7 @@ body {
 
 header{
     position: relative;
-    width: 900px;
+    width: 910px;
 }
 
 .container {
@@ -205,14 +205,14 @@ color: ;
     width: 142px;
     height: 93px;
     position: absolute;
-    bottom: -64px;
+    bottom: -73px;
     right: 5px;
     background: url(images/paz_logo.png) no-repeat 0 0;
 }
 
 .header {
     /* width: 100%; */
-    height: 45px;
+    /* height: 45px; */
     position: relative;
     z-index: 100;
 }
@@ -222,7 +222,7 @@ color: ;
 }
 
 .header-menu {
-    margin-right: 134px;
+    margin-right: 100px;
 }
 
 .sideMenu {
