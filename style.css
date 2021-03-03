@@ -81,7 +81,7 @@ header .header-menu li a {
     left: 26px;
     bottom: 20px;
     color: #fff;
-    background: url( /images/hp_tab_text_bg.png) no-repeat 0 0;
+    background: url( images/hp_tab_text_bg.png) no-repeat 0 0;
 }
 .first .tab div.text p {
     font-size: 13px;
@@ -108,7 +108,7 @@ a span {
     font-size: 13px;
 }
 a.readMore.white {
-    background: url(/images/read_more_white.png) no-repeat left center;
+    background: url(images/read_more_white.png) no-repeat left center;
 }
 
 /* .cube {
@@ -162,7 +162,7 @@ color: ;
     position: absolute;
     bottom: -64px;
     right: 5px;
-    background: url(/images/paz_logo.png) no-repeat 0 0;
+    background: url(images/paz_logo.png) no-repeat 0 0;
 }
 
 .header {
@@ -173,7 +173,7 @@ color: ;
 }
 .header-menu li a.home {
     width: 17px;
-    background: url(/images/menu_home.png) no-repeat 0 top;
+    background: url(images/menu_home.png) no-repeat 0 top;
 }
 
 .header-menu {
@@ -328,7 +328,7 @@ color: ;
     /* width: 248px;
     height: 142px; */
     padding: 18px 22px 15px;
-    background: url(/images/cube_bg.png) no-repeat 0 0;
+    background: url(images/cube_bg.png) no-repeat 0 0;
 }
 
 .searchBox {
@@ -342,12 +342,12 @@ color: ;
     float: right;
     width: 132px;
     height: 19px;
-    background: url(/images/search_input.png) no-repeat 0 0;
+    background: url(images/search_input.png) no-repeat 0 0;
 }
 .searchBox a {
     display: inline-block;
     float: left;
     width: 19px;
     height: 19px;
-    background: url(/images/search_button.png) no-repeat 0 0;
+    background: url(images/search_button.png) no-repeat 0 0;
 }
